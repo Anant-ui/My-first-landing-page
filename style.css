@@ -1,0 +1,102 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+main{
+    height: 100%;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: top;
+
+}
+.overlay{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.nav-bar{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 30px;
+
+}
+.logo h1{
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+    padding: 0 35px;
+} 
+h1 span{
+    color: yellow;
+    font-size: 45px;
+}
+.nav-links{
+   text-align: left; 
+}
+.nav-links a{
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: capitalize;
+text-decoration: none;
+padding: 0 10px;
+}
+.nav-links a:hover{
+    color: red;
+}
+.btn button{
+    padding: 15px 30px;
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+}
+.content{
+    padding: 120px 120PX;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content h3{
+    color: aliceblue;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 25px 50px;
+   
+}
+.content h1{
+    color:aliceblue;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 25px 50px;
+
+}
+
+.btn-group{
+
+    padding: 0  48PX;
+}
+
+.btn-group button{
+
+    background-color: rgb(248, 235, 52);
+    color: black  ;
+    border-radius: 30px;
+    padding: 10px 30px;
+   flex-direction: column;
+    justify-content: center;
+    gap:  0 10px;
+
+
+}
